@@ -28,8 +28,8 @@ ActiveRecord::Schema.define(version: 20140618005126) do
   create_table "stops", force: true do |t|
     t.string   "street_on"
     t.string   "street_cross"
-    t.decimal  "boardings"
-    t.decimal  "alightings"
+    t.float    "boardings"
+    t.float    "alightings"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -3,8 +3,8 @@ class CreateStops < ActiveRecord::Migration
     create_table :stops do |t|
       t.string :street_on
       t.string :street_cross
-      t.decimal :boardings
-      t.decimal :alightings
+      t.float :boardings
+      t.float :alightings
 
       t.timestamps
     end
