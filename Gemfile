@@ -4,6 +4,7 @@ group :development, :test do
   gem "rspec-rails"
   gem "childprocess"
   gem "factory_girl_rails"
+  gem "growl"
   gem "guard-rspec"
   gem "guard-spork"
   gem "spork-rails"
