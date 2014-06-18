@@ -2,5 +2,5 @@ require 'spec_helper'
 
 describe Route do
   it { should have_db_column(:number) }  
-  it { should have_many(:stops) }
+  it { have_and_belong_to_many(:stops) }
 end
