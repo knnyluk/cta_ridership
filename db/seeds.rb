@@ -16,8 +16,11 @@ bus_stops.each_with_index do |bs, i|
                               alightings: bs_hash['alightings'])
   if bs_hash['routes'] 
     bs_hash['routes'].split(',').each do |route|
-      current_stop.routes << ( Route.find_by_number(route) || 
-                               Route.create(number: route) )
+      route.strip!
+      if route != ''
+        current_stop.routes << ( Route.find_by_number(route) || 
+                                 Route.create(number: route) )
+      end
     end
   end
   # current_route = bs_hash['number']
