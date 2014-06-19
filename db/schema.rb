@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20140618005126) do
   end
 
   create_table "stops", force: true do |t|
+    t.integer  "stop_id"
     t.string   "street_on"
     t.string   "street_cross"
     t.float    "boardings"

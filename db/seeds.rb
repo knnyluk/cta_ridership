@@ -10,18 +10,19 @@ bus_stops = CSV.read("db/oct2012.csv", headers:true)
 bus_stops.each_with_index do |bs, i|
   p i
   bs_hash = bs.to_hash
-  current_stop = Stop.create( street_on: bs_hash['street_on'],
+  current_stop = Stop.create( stop_id: bs_hash['number'],
+                              street_on: bs_hash['street_on'],
                               street_cross: bs_hash['street_cross'],
                               boardings: bs_hash['boardings'],
                               alightings: bs_hash['alightings'])
-  if bs_hash['routes'] 
+  # if bs_hash['routes'] 
     bs_hash['routes'].split(',').each do |route|
       route.strip!
-      if route != ''
+      # if route != ''
         current_stop.routes << ( Route.find_by_number(route) || 
                                  Route.create(number: route) )
-      end
-    end
+      # end
+    # end
   end
   # current_route = bs_hash['number']
   # ( Route.find_by_number(bs_hash['number']) || 
@@ -31,4 +32,7 @@ bus_stops.each_with_index do |bs, i|
   #                                                         alightings: bs_hash['alightings'])
 end
 
-# end
+# Route.all.map {|r| [r.number, r.stops.count] }.sort {|a,b| b[1] <=> a[1]}
+
+# no route number for stop 6637
+# no route number for stop 12548, duplicated row?
