@@ -6,6 +6,8 @@ class CreateStops < ActiveRecord::Migration
       t.string :street_cross
       t.float :boardings
       t.float :alightings
+      t.float :lat
+      t.float :long
 
       t.timestamps
     end

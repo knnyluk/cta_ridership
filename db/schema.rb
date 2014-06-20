@@ -17,7 +17,8 @@ ActiveRecord::Schema.define(version: 20140618005126) do
   enable_extension "plpgsql"
 
   create_table "routes", force: true do |t|
-    t.string "number"
+    t.string  "number"
+    t.integer "stop_count"
   end
 
   create_table "routes_stops", id: false, force: true do |t|
@@ -31,6 +32,8 @@ ActiveRecord::Schema.define(version: 20140618005126) do
     t.string   "street_cross"
     t.float    "boardings"
     t.float    "alightings"
+    t.float    "lat"
+    t.float    "long"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
