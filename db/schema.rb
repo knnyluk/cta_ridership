@@ -19,6 +19,8 @@ ActiveRecord::Schema.define(version: 20140618005126) do
   create_table "routes", force: true do |t|
     t.string  "number"
     t.integer "stop_count"
+    t.float   "total_alightings"
+    t.float   "total_boardings"
   end
 
   create_table "routes_stops", id: false, force: true do |t|
@@ -34,6 +36,7 @@ ActiveRecord::Schema.define(version: 20140618005126) do
     t.float    "alightings"
     t.float    "lat"
     t.float    "long"
+    t.integer  "route_count"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

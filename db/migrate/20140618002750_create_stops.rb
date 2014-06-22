@@ -8,6 +8,7 @@ class CreateStops < ActiveRecord::Migration
       t.float :alightings
       t.float :lat
       t.float :long
+      t.integer :route_count
 
       t.timestamps
     end

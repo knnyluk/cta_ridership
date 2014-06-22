@@ -1,0 +1,25 @@
+<h1>Route <%= @route.number %></h1>
+<h2>Summary</h2>
+
+<table id="summary_table">
+  <thead>
+    <th></th>
+    <th>total boardings</th>
+    <th>total alightings</th>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td class="first_row">Route</td>
+      <td><%= @route.total_boardings.round(1) %></td>
+      <td><%= @route.total_alightings.round(1) %></td>
+    </tr>
+
+    <tr>
+      <td class="first_row">Percent</td>
+      <td><%= @all_routes[:percent_boardings] %>%</td>
+      <td><%= @all_routes[:percent_alightings] %>%</td>
+    </tr>
+  </tbody>
+</table>
+

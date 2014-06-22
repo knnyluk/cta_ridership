@@ -1,0 +1,31 @@
+<h1>All routes</h1>
+<table>
+  <thead>
+    <th>Route number</th>
+    <th>Stop count</th>
+    <th colspan='2'>Boardings</th>
+    <th>Alightings</th>
+    <th>Total on/off</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Total</td>
+      <td>Per stop</td>
+      <td>Total alightings</td>
+      <td>Total on/off</td>
+    </tr>
+
+    <% @routes.each do |r| %>
+      <tr>
+        <td><%= link_to(r.number, r.number) %></td>
+        <td><%= r.stop_count %></td>
+        <td><%= r.total_boardings.round(1) %></td>
+        <td><%= (r.total_boardings.round(1) / r.stop_count).round %></td>
+        <td><%= r.total_alightings.round(1) %></td>
+        <td><%= r.total_on_off.round(1) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
