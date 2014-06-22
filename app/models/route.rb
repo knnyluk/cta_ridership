@@ -43,22 +43,13 @@ class Route < ActiveRecord::Base
   end
 
   def self.raw_analysis
-     routes = all.map {|r| [r.number,
-                            r.stop_count,
-                            r.boardings,
-                            r.alightings,
-                            r.total_on_off]
-     }
+     routes = all.map {|r| [r.number,r.stop_count,r.boardings,r.alightings,r.total_on_off]}
      cols = (1..4).to_a.map do |n|
                 routes.sort {|a,b| b[1] <=> a[n]}
                       .map {|r| [r[0], r[n]]}
-              end
-      # routes.sort {|a,b| b[1] <=> a[1]}
-      #              .map {|r| [r[0], r[1]]},
-      #        routes.sort {|a,b| b[1] <=> a[2]}
-      #              .map {|r| [r[0], r[2]]}
-             # routes.sort {|a,b| b.total_boardings <=> a.total_boardings}
-     cols.transpose
+            end
+     cols.unshift((1..routes.count).to_a.map(&:to_s))
+         .transpose.unshift(['','stop count', 'boardings', 'alightings', 'total on/off']) 
   end
 
 

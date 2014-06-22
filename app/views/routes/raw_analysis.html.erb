@@ -1,1 +1,9 @@
-raw_analysis.html.erb
+<table>
+  <% @table_data_raw.each do |tr| %>
+    <tr>
+      <% tr.each do |td| %>
+        <td <%= "class=#{td.first}" if td.is_a?(Array) %>><%= td %></td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>

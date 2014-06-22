@@ -13,6 +13,6 @@ class RoutesController < ApplicationController
   end
 
   def raw_analysis
-    @table_data_raw = 
+    @table_data_raw = Route.raw_analysis
   end
 end
