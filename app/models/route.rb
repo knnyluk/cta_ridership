@@ -42,14 +42,27 @@ class Route < ActiveRecord::Base
     total_boardings.round(1)
   end
 
-  def self.raw_analysis
-     routes = all.map {|r| [r.number,r.stop_count,r.boardings,r.alightings,r.total_on_off]}
-     cols = (1..4).to_a.map do |n|
-                routes.sort {|a,b| b[n] <=> a[n]}
-                      .map {|r| [r[0], r[n]]}
-            end
-     cols.unshift((1..routes.count).to_a.map(&:to_s))
-         .transpose.unshift(['','stop count', 'boardings', 'alightings', 'total on/off']) 
+  def self.get_raw_data
+    all.map {|r| [r.number,r.stop_count,r.boardings,r.alightings,r.total_on_off]}
+  end
+
+  def self.raw_table(raw_data)
+    (1..4).to_a.map do |n|
+      raw_data.sort {|a,b| b[n] <=> a[n]}.map {|r| [r[0], r[n]]}
+    end
+  end
+
+  def self.raw_totals(raw_data)
+    raw_cols = raw_data.transpose
+    { stops: raw_cols[1].map.reduce(:+),
+      boardings: raw_cols[2].map.reduce(:+),
+      alightings: raw_cols[3].map.reduce(:+),
+      on_off: raw_cols[4].map.reduce(:+) }
+  end
+
+  def self.raw_analysis(raw_data)
+    raw_table(raw_data).unshift((1..raw_data.count).to_a.map(&:to_s))
+         .transpose.unshift(['rank','stop count', 'boardings', 'alightings', 'total on/off']) 
   end
 
 

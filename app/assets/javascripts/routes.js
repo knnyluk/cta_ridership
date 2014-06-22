@@ -7,4 +7,7 @@ $(function () {
 
     $("." + currentRoute).css("background-color", randomColor);
   });
+  $('#reset_color').on('click', function() {
+    $('td').css("background-color", "white");
+  });
 });
