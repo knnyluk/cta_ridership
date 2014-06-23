@@ -1,0 +1,23 @@
+<h1>Stops</h1>
+<table>
+  <thead>
+    <th>Stop id</th>
+    <th>Routes</th>
+    <th>On street</th>
+    <th>Cross street</th>
+    <th>Boardings</th>
+    <th>Alightings</th>
+  </thead>
+  <tbody>
+    <% @stops.each do |s| %>
+      <tr>
+        <td><%= s.stop_id %></td>
+        <td><%= s.routes.map(&:number) %></td>
+        <td><%= s.street_on %></td>
+        <td><%= s.street_cross %></td>
+        <td><%= s.boardings %></td>
+        <td><%= s.alightings %></td>
+      </tr> 
+    <% end %>
+  </tbody>
+</table>

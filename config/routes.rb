@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   get 'routes' => 'routes#index', as: 'routes'
-  get 'routes/raw_analysis' => 'routes#raw_analysis', as: 'route_raw' 
+  get 'routes/ranked' => 'routes#analysis', as: 'routes_ranked' 
   get 'routes/:id' => 'routes#show', as: 'route'
+  root 'routes#index'
+  get 'stops' => 'stops#index', as: 'stops'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

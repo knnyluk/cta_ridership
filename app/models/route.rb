@@ -46,7 +46,7 @@ class Route < ActiveRecord::Base
     all.map {|r| [r.number,r.stop_count,r.boardings,r.alightings,r.total_on_off]}
   end
 
-  def self.raw_table(raw_data)
+  def self.get_raw_table(raw_data)
     (1..4).to_a.map do |n|
       raw_data.sort {|a,b| b[n] <=> a[n]}.map {|r| [r[0], r[n]]}
     end
@@ -54,16 +54,34 @@ class Route < ActiveRecord::Base
 
   def self.raw_totals(raw_data)
     raw_cols = raw_data.transpose
-    { stops: raw_cols[1].map.reduce(:+),
-      boardings: raw_cols[2].map.reduce(:+),
-      alightings: raw_cols[3].map.reduce(:+),
-      on_off: raw_cols[4].map.reduce(:+) }
+    # { stops: raw_cols[1].map.reduce(:+),
+    #   boardings: raw_cols[2].map.reduce(:+),
+    #   alightings: raw_cols[3].map.reduce(:+),
+    #   on_off: raw_cols[4].map.reduce(:+) }
+    (1..4).map {|i| raw_cols[i].reduce(:+)}
   end
 
-  def self.raw_analysis(raw_data)
-    raw_table(raw_data).unshift((1..raw_data.count).to_a.map(&:to_s))
+  def self.raw_analysis(raw_table, raw_data)
+    raw_table.unshift((1..raw_data.count).to_a.map(&:to_s))
          .transpose.unshift(['rank','stop count', 'boardings', 'alightings', 'total on/off']) 
   end
 
+  def self.percent_table
+    raw_tab = get_raw_table(get_raw_data).drop(1)
+    totals = raw_totals(get_raw_data).drop(1)
+    # raw_tab.map.with_index do |col, i| 
+    #   col.map {|r| [r.first,(col.last / totals[i])]}
+    # end
+    raw_tab
+  end
+
+  def self.color_class(quantity)
+    case quantity
+    when 500...1000
+      "class=c500"
+    else  
+      ''
+    end
+  end
 
 end

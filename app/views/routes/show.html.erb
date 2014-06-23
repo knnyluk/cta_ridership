@@ -6,15 +6,15 @@
     <th></th>
     <th>total boardings</th>
     <th>total alightings</th>
+    <th>stop count</th>
   </thead>
-
   <tbody>
     <tr>
       <td class="first_row">Route</td>
       <td><%= @route.total_boardings.round(1) %></td>
       <td><%= @route.total_alightings.round(1) %></td>
+      <td><%= @route.stop_count %></td>
     </tr>
-
     <tr>
       <td class="first_row">Percent</td>
       <td><%= @all_routes[:percent_boardings] %>%</td>
@@ -23,3 +23,28 @@
   </tbody>
 </table>
 
+<h2>Stops</h2>
+<table>
+  <thead>
+    <th>Stop id</th>
+    <th>On street</th>
+    <th>Cross street</th>
+    <th>Other routes</th>
+    <th>Boardings</th>
+    <th>Alightings</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
+  </thead>
+  <% @stops.each do |s| %>
+    <tr>
+      <td><%= s.stop_id %></td>
+      <td><%= s.street_on %></td>
+      <td><%= s.street_cross %></td>
+      <td><%= s.routes.map(&:number) - [@route.number] %></td>
+      <td><%= s.boardings %></td>
+      <td><%= s.alightings %></td>
+      <td><%= s.lat %></td>
+      <td><%= s.long %></td>
+    </tr>
+  <% end %>
+</table>
