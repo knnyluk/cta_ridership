@@ -29,16 +29,15 @@ ActiveRecord::Schema.define(version: 20140618005126) do
   end
 
   create_table "stops", force: true do |t|
-    t.integer  "stop_id"
-    t.string   "street_on"
-    t.string   "street_cross"
-    t.float    "boardings"
-    t.float    "alightings"
-    t.float    "lat"
-    t.float    "long"
-    t.integer  "route_count"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.integer "stop_id"
+    t.string  "street_on"
+    t.string  "street_cross"
+    t.float   "boardings"
+    t.float   "alightings"
+    t.float   "lat"
+    t.float   "long"
+    t.integer "route_count"
+    t.string  "route_list"
   end
 
 end

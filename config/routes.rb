@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'routes/:id' => 'routes#show', as: 'route'
   root 'routes#index'
   get 'stops' => 'stops#index', as: 'stops'
+  get 'stops/:id' => 'stops#show', as: 'stop'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,0 +1,57 @@
+<h1>Stop #<%= @stop.stop_id %></h1>
+
+<table>
+  <thead>
+    <th>On street</th>
+    <th>Cross street</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
+  </thead>
+  <tbody>
+    <td><%= @stop.street_on %></td>
+    <td><%= @stop.street_cross %></td>
+    <td><%= @stop.lat %></td>
+    <td><%= @stop.long %></td>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <thead>
+    <th>boardings</th>
+    <th>boarding rank</th>
+  </thead>
+  <tbody>
+    <td><%= @stop.boardings %></td>
+    <td><%= @stop.boardings_rank %></td>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <thead>
+    <th>alightings</th>
+    <th>alighting rank</th>
+  </thead>
+  <tbody>
+    <td><%= @stop.alightings %></td>
+    <td><%= @stop.alightings_rank %></td>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <thead>
+    <th>routes</th>
+    <th>route count</th>
+    <th>route rank</th>
+  </thead>
+  <tbody>
+    <td><%= @stop.route_list %></td>
+    <td><%= @stop.route_count %></td>
+    <td><%= @stop.routes_rank %></td>
+  </tbody>
+</table>

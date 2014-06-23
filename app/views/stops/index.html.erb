@@ -11,8 +11,8 @@
   <tbody>
     <% @stops.each do |s| %>
       <tr>
-        <td><%= s.stop_id %></td>
-        <td><%= s.routes.map(&:number) %></td>
+        <td><%= link_to(s.stop_id, stop_path(s)) %></td>
+        <td><%= s.route_list %></td>
         <td><%= s.street_on %></td>
         <td><%= s.street_cross %></td>
         <td><%= s.boardings %></td>

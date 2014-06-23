@@ -9,8 +9,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+  <%= link_to('Home', routes_path) %>
+  <%= link_to('Routes ranked', routes_ranked_path) %>
+  <%= link_to('All stops', stops_path) %>
+  <%= yield %>
 
 </body>
 </html>

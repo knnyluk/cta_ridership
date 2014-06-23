@@ -19,7 +19,8 @@ bus_stops.each_with_index do |bs, i|
                               alightings: bs_hash['alightings'],
                               lat: lat,
                               long: long,
-                              route_count: routes.length)
+                              route_count: routes.length,
+                              route_list: bs_hash['routes'])
   routes.each do |route|
     route.strip!
     if route != ''
