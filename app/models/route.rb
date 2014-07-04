@@ -84,4 +84,25 @@ class Route < ActiveRecord::Base
     end
   end
 
+  #1) check if end stop is on the route of the beginning stop
+  #2) check if end stop is on directly transferable routes
+  #3) check each transferable route 
+  #4) return first via path through routes
+
+  def self.short(start_stop, end_stop)
+    transfers = 0
+    if !(start_stop.routes & end_stop.routes).empty?
+      return transfers
+    end
+
+    current_stops = start_stop.routes.map(&:stops).flatten!.uniq
+    until current_stops.include?(end_stop)
+      transfers += 1
+      current_stops.map(&:routes).flatten.uniq.map(&:stops).flatten
+
+    end
+    return transfers
+
+  end
+
 end

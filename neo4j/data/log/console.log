@@ -1,0 +1,37 @@
+2014-06-23 02:50:56.179+0000 DEBUG [API] You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+2014-06-23 02:50:56.398+0000 INFO  [API] Setting startup timeout to: 120000ms based on -1
+22:50:56.509 [main] WARN  o.neo4j.kernel.EmbeddedGraphDatabase - You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+2014-06-23 02:50:57.395+0000 INFO  [API] Successfully started database
+2014-06-23 02:50:57.976+0000 INFO  [API] Starting HTTP on port :7474 with 40 threads available
+2014-06-23 02:50:58.139+0000 INFO  [API] Enabling HTTPS on port :7473
+2014-06-23 02:50:58.140+0000 INFO  [API] No SSL certificate found, generating a self-signed certificate..
+2014-06-23 02:50:58.772+0000 INFO  [API] Mounted discovery module at [/]
+2014-06-23 02:50:58.781+0000 INFO  [API] Mounted REST API at [/db/data/]
+2014-06-23 02:50:58.784+0000 INFO  [API] Mounted management API at [/db/manage/]
+2014-06-23 02:50:58.785+0000 INFO  [API] Mounted webadmin at [/webadmin]
+2014-06-23 02:50:58.785+0000 INFO  [API] Mounted Neo4j Browser at [/browser]
+2014-06-23 02:50:58.858+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2014-06-23 02:50:58.917+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+22:50:58.918 [main] WARN  o.e.j.server.handler.ContextHandler - o.e.j.s.ServletContextHandler@3e6534e7{/,null,null} contextPath ends with /
+22:50:58.918 [main] WARN  o.e.j.server.handler.ContextHandler - Empty contextPath
+22:50:58.920 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.0.5.v20130815
+22:50:58.961 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@2b98b3bb{/,null,AVAILABLE}
+22:50:59.041 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+22:50:59.054 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@396e6d9{/webadmin,jar:file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/neo4j-server-2.0.1-static-web.jar!/webadmin-html,AVAILABLE}
+22:50:59.470 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4a734c04{/db/manage,null,AVAILABLE}
+22:50:59.683 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@709ed6f3{/db/data,null,AVAILABLE}
+22:50:59.709 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+22:50:59.710 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@1fb2d5e{/browser,jar:file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/neo4j-browser-2.0.1.jar!/browser,AVAILABLE}
+22:50:59.818 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3e6534e7{/,null,AVAILABLE}
+22:50:59.844 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4adc663e{HTTP/1.1}{localhost:7474}
+22:51:00.032 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5a50d9fc{SSL-HTTP/1.1}{localhost:7473}
+2014-06-23 02:51:00.034+0000 INFO  [API] Remote interface ready and available at [http://localhost:7474/]
+2014-06-27 18:12:53.539+0000 INFO  [API] Neo4j Server shutdown initiated by request
+14:12:53.655 [Thread-21] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4adc663e{HTTP/1.1}{localhost:7474}
+14:12:53.659 [Thread-21] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@5a50d9fc{SSL-HTTP/1.1}{localhost:7473}
+14:12:53.675 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3e6534e7{/,null,UNAVAILABLE}
+14:12:53.694 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@1fb2d5e{/browser,jar:file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/neo4j-browser-2.0.1.jar!/browser,UNAVAILABLE}
+14:12:53.699 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@709ed6f3{/db/data,null,UNAVAILABLE}
+14:12:53.700 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4a734c04{/db/manage,null,UNAVAILABLE}
+14:12:53.702 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.w.WebAppContext@396e6d9{/webadmin,jar:file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/neo4j-server-2.0.1-static-web.jar!/webadmin-html,UNAVAILABLE}
+14:12:53.702 [Thread-21] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.h.MovedContextHandler@2b98b3bb{/,null,UNAVAILABLE}

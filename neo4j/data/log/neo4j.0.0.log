@@ -1,0 +1,36 @@
+Jun 22, 2014 10:50:55 PM org.neo4j.server.logging.Logger log
+WARNING: You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+Jun 22, 2014 10:50:56 PM org.neo4j.server.logging.Logger log
+INFO: Setting startup timeout to: 120000ms based on -1
+Jun 22, 2014 10:50:57 PM org.neo4j.server.logging.Logger log
+INFO: Successfully started database
+Jun 22, 2014 10:50:57 PM org.neo4j.server.logging.Logger log
+INFO: Starting HTTP on port :7474 with 40 threads available
+Jun 22, 2014 10:50:58 PM org.neo4j.server.logging.Logger log
+INFO: Enabling HTTPS on port :7473
+Jun 22, 2014 10:50:58 PM org.neo4j.server.logging.Logger log
+INFO: No SSL certificate found, generating a self-signed certificate..
+Jun 22, 2014 10:50:58 PM org.neo4j.server.logging.Logger log
+INFO: Mounted discovery module at [/]
+Jun 22, 2014 10:50:58 PM org.neo4j.server.logging.Logger log
+INFO: Mounted REST API at [/db/data/]
+Jun 22, 2014 10:50:58 PM org.neo4j.server.logging.Logger log
+INFO: Mounted management API at [/db/manage/]
+Jun 22, 2014 10:50:58 PM org.neo4j.server.logging.Logger log
+INFO: Mounted webadmin at [/webadmin]
+Jun 22, 2014 10:50:58 PM org.neo4j.server.logging.Logger log
+INFO: Mounted Neo4j Browser at [/browser]
+Jun 22, 2014 10:50:58 PM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/webadmin] from [webadmin-html]
+Jun 22, 2014 10:50:58 PM org.neo4j.server.logging.Logger log
+INFO: Mounting static content at [/browser] from [browser]
+Jun 22, 2014 10:50:59 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Jun 22, 2014 10:50:59 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Jun 22, 2014 10:50:59 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Jun 22, 2014 10:51:00 PM org.neo4j.server.logging.Logger log
+INFO: Remote interface ready and available at [http://localhost:7474/]
+Jun 27, 2014 2:12:53 PM org.neo4j.server.logging.Logger log
+INFO: Neo4j Server shutdown initiated by request

@@ -1,0 +1,577 @@
+2014-06-23 02:50:56.773+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2014-06-23 02:50:56.775+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2014-06-23 02:50:56.779+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo_store=/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore
+2014-06-23 02:50:56.780+0000 INFO  [o.n.k.i.DiagnosticsManager]: ephemeral=false
+2014-06-23 02:50:56.780+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source=server
+2014-06-23 02:50:56.780+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=178M
+2014-06-23 02:50:56.780+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=619M
+2014-06-23 02:50:56.780+0000 INFO  [o.n.k.i.DiagnosticsManager]: keep_logical_logs=true
+2014-06-23 02:50:56.780+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=643M
+2014-06-23 02:50:56.780+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=546M
+2014-06-23 02:50:56.780+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=data/graph.db
+2014-06-23 02:50:56.780+0000 INFO  [o.n.k.i.DiagnosticsManager]: remote_shell_enabled=true
+2014-06-23 02:50:56.780+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=787M
+2014-06-23 02:50:56.781+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2014-06-23 02:50:56.781+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2014-06-23 02:50:56.781+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2014-06-23 02:50:56.781+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2014-06-23 02:50:56.782+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2014-06-23 02:50:56.782+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2014-06-23 02:50:56.782+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2014-06-23 02:50:56.782+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2014-06-23 02:50:56.782+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2014-06-23 02:50:56.782+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2014-06-23 02:50:56.782+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2014-06-23 02:50:56.782+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2014-06-23 02:50:56.785+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 8.00 GB
+2014-06-23 02:50:56.785+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 3.53 GB
+2014-06-23 02:50:56.786+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 5.72 GB
+2014-06-23 02:50:56.790+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 1.00 GB
+2014-06-23 02:50:56.791+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 1000.50 MB
+2014-06-23 02:50:56.792+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2014-06-23 02:50:56.792+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 122.06 MB
+2014-06-23 02:50:56.792+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 127.88 MB
+2014-06-23 02:50:56.792+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 1.97 GB
+2014-06-23 02:50:56.798+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+2014-06-23 02:50:56.799+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen]
+2014-06-23 02:50:56.800+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=3.13 MB, used=3.05 MB, max=240.00 MB, threshold=0.00 B
+2014-06-23 02:50:56.801+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Metaspace (Non-heap memory): committed=13.00 MB, used=12.57 MB, max=-1.00 B, threshold=0.00 B
+2014-06-23 02:50:56.801+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Compressed Class Space (Non-heap memory): committed=1.75 MB, used=1.64 MB, max=1.00 GB, threshold=0.00 B
+2014-06-23 02:50:56.802+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Eden Space (Heap memory): committed=1.00 MB, used=140.18 kB, max=266.25 MB, threshold=?
+2014-06-23 02:50:56.802+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Survivor Space (Heap memory): committed=128.00 kB, used=122.59 kB, max=33.25 MB, threshold=?
+2014-06-23 02:50:56.803+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Old Gen (Heap memory): committed=126.75 MB, used=5.61 MB, max=1.68 GB, threshold=0.00 B
+2014-06-23 02:50:56.803+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2014-06-23 02:50:56.804+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Mac OS X; version: 10.9.3; arch: x86_64; cpus: 4
+2014-06-23 02:50:56.805+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 10240
+2014-06-23 02:50:56.805+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 79
+2014-06-23 02:50:56.806+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 4466@Jane-2.local
+2014-06-23 02:50:56.806+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2014-06-23 02:50:56.807+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: America/Toronto
+2014-06-23 02:50:56.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2014-06-23 02:50:56.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2014-06-23 02:50:56.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2014-06-23 02:50:56.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 25.0-b70
+2014-06-23 02:50:56.808+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2014-06-23 02:50:56.809+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-XX:+DisableExplicitGC, -Dorg.neo4j.server.properties=conf/neo4j-server.properties, -Djava.util.logging.config.file=conf/logging.properties, -Dlog4j.configuration=file:conf/log4j.properties, -XX:+UseConcMarkSweepGC, -XX:+CMSClassUnloadingEnabled, -Dneo4j.home=/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j, -Dneo4j.instance=/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j, -Dfile.encoding=UTF-8]
+2014-06-23 02:50:56.809+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jersey-server-1.9.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/QTJava.zip
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jsr311-api-1.1.2.r612.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libQTJNative.jnilib
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jackson-jaxrs-1.9.7.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/classes
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/janino-2.6.1.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/charsets.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/server-api-2.0.1.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jetty-io-9.0.5.v20130815.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/neo4j-kernel-2.0.1.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jetty-security-9.0.5.v20130815.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/rt.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jsse.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/commons-beanutils-core-1.8.0.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/logback-access-1.0.9.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jce.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/commons-io-1.4.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jfr.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/neo4j-shell-2.0.1.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jetty-webapp-9.0.5.v20130815.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/commons-configuration-1.6.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/commons-lang-2.4.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/neo4j-server-2.0.1.jar
+2014-06-23 02:50:56.810+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/geronimo-jta_1.1_spec-1.1.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/slf4j-api-1.6.2.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/lucene-core-3.6.2.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jackson-core-asl-1.9.7.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/neo4j-graph-algo-2.0.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jetty-util-9.0.5.v20130815.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/neo4j-cypher-compiler-2.0-2.0.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/commons-collections-3.2.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jackson-mapper-asl-1.9.7.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jetty-xml-9.0.5.v20130815.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/rhino-1.7R3.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/neo4j-server-2.0.1-static-web.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/neo4j-cypher-2.0.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/commons-digester-1.8.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/javax.servlet-3.0.0.v201112011016.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jetty-server-9.0.5.v20130815.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/rrd4j-2.0.7.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/scala-library-2.10.3.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/concurrentlinkedhashmap-lru-1.3.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jersey-core-1.9.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/commons-logging-1.1.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jetty-http-9.0.5.v20130815.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/resources.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/bcprov-jdk16-140.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jetty-servlet-9.0.5.v20130815.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/neo4j-browser-2.0.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/neo4j-cypher-commons-2.0.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/neo4j-graph-matching-2.0.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jersey-multipart-1.9.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/parboiled-core-1.1.6.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/jcl-over-slf4j-1.6.1.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/logback-core-1.0.9.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/mimepull-1.6.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/parboiled-scala_2.10-1.1.6.jar
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/conf/
+2014-06-23 02:50:56.811+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/neo4j-cypher-compiler-1.9-2.0.1.jar
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/sunrsasign.jar
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/ext/jfxrt.jar
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/neo4j-lucene-index-2.0.1.jar
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/neo4j-udc-2.0.1.jar
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/logback-classic-1.0.9.jar
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/lib/neo4j-jmx-2.0.1.jar
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/commons-compiler-2.6.1.jar
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/ext/nashorn.jar
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/asm-3.1.jar
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/system/lib/commons-beanutils-1.8.0.jar
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/SpecialK/Library/Java/Extensions
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Library/Java/Extensions
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Network/Library/Java/Extensions
+2014-06-23 02:50:56.812+0000 INFO  [o.n.k.i.DiagnosticsManager]: /System/Library/Java/Extensions
+2014-06-23 02:50:56.813+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib/java
+2014-06-23 02:50:56.813+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j
+2014-06-23 02:50:56.813+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2014-06-23 02:50:56.813+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib
+2014-06-23 02:50:56.813+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.properties = conf/neo4j-server.properties
+2014-06-23 02:50:56.813+0000 INFO  [o.n.k.i.DiagnosticsManager]: gopherProxySet = false
+2014-06-23 02:50:56.813+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2014-06-23 02:50:56.813+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: log4j.configuration = file:conf/log4j.properties
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /Users/SpecialK
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = America/Toronto
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = SpecialK
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org.neo4j.server.Bootstrapper
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeBig
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.instance = /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.home = /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2014-06-23 02:50:56.814+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2014-06-23 02:50:56.817+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface utun0:
+2014-06-23 02:50:56.817+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fd43:d343:847:3a43:9953:b6f9:6460:70d
+2014-06-23 02:50:56.817+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:9953:b6f9:6460:70d%utun0
+2014-06-23 02:50:56.817+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface en0:
+2014-06-23 02:50:56.817+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:bae8:56ff:fe1f:ffe8%en0
+2014-06-23 02:50:56.817+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.1.9
+2014-06-23 02:50:56.817+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo0:
+2014-06-23 02:50:56.817+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:0:0:1%lo0
+2014-06-23 02:50:56.817+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2014-06-23 02:50:56.818+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2014-06-23 02:50:56.818+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2014-06-23 02:50:56.973+0000 INFO  [o.n.k.i.n.s.StoreFactory]: Creating new db @ /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore
+2014-06-23 02:50:57.005+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-06-23 02:50:57.007+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-06-23 02:50:57.008+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.009+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.011+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-06-23 02:50:57.012+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-06-23 02:50:57.012+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.013+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.016+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-06-23 02:50:57.016+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-06-23 02:50:57.016+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-06-23 02:50:57.016+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-06-23 02:50:57.017+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.strings] brickCount=0 brickSize=572416b mappedMem=572522496b (storeSize=128b)
+2014-06-23 02:50:57.017+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-06-23 02:50:57.017+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-06-23 02:50:57.019+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.arrays] brickCount=0 brickSize=648960b mappedMem=649068544b (storeSize=128b)
+2014-06-23 02:50:57.021+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db] brickCount=0 brickSize=6742327b mappedMem=674234368b (storeSize=0b)
+2014-06-23 02:50:57.022+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshipstore.db] brickCount=0 brickSize=8252277b mappedMem=825229312b (storeSize=0b)
+2014-06-23 02:50:57.023+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2014-06-23 02:50:57.024+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.nodestore.db] brickCount=0 brickSize=1866452b mappedMem=186646528b (storeSize=0b)
+2014-06-23 02:50:57.024+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2014-06-23 02:50:57.025+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-06-23 02:50:57.029+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.030+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.031+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.032+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.032+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.033+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.033+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.034+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.035+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.037+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.037+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.038+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.039+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2014-06-23 02:50:57.040+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore hit=0 miss=8 switches=0 ooe=0
+2014-06-23 02:50:57.051+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-06-23 02:50:57.051+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-06-23 02:50:57.052+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-06-23 02:50:57.052+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-06-23 02:50:57.052+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.strings] brickCount=0 brickSize=572416b mappedMem=572522496b (storeSize=128b)
+2014-06-23 02:50:57.053+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2014-06-23 02:50:57.053+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2014-06-23 02:50:57.053+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.arrays] brickCount=0 brickSize=648960b mappedMem=649068544b (storeSize=128b)
+2014-06-23 02:50:57.053+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db] brickCount=0 brickSize=6742327b mappedMem=674234368b (storeSize=0b)
+2014-06-23 02:50:57.054+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshipstore.db] brickCount=0 brickSize=8252277b mappedMem=825229312b (storeSize=0b)
+2014-06-23 02:50:57.054+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.nodestore.db.labels] brickCount=0 brickSize=0b mappedMem=0b (storeSize=68b)
+2014-06-23 02:50:57.054+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.nodestore.db] brickCount=0 brickSize=1866452b mappedMem=186646528b (storeSize=0b)
+2014-06-23 02:50:57.055+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.schemastore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=64b)
+2014-06-23 02:50:57.056+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [/Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=63b)
+2014-06-23 02:50:57.117+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2014-06-23 02:50:57.138+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2014-06-23 02:50:57.214+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [data/graph.db/nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2014-06-23 02:50:57.218+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: Rebuilding lucene scan store, this may take a while
+2014-06-23 02:50:57.221+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: Lucene scan store rebuilt (roughly -1 nodes)
+2014-06-23 02:50:57.225+0000 INFO  [o.n.k.i.t.TxManager]: TM new log: tm_tx_log.1
+2014-06-23 02:50:57.349+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [data/graph.db/index/lucene.log.1] version=0, lastTxId=1 (clean)
+2014-06-23 02:50:57.353+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2014-06-23 02:50:57.353+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1403491856975, id:443446876881162507, store version: 13843131341501958]
+2014-06-23 02:50:57.353+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.0.1
+2014-06-23 02:50:57.354+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 1.9 (neo4j-cypher-compiler-1.9), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Commons (neo4j-cypher-commons), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Server API (server-api), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Generic shell (neo4j-shell), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neo4j-udc, version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Lucene Index (neo4j-lucene-index), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j Server (neo4j-server), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.0 (neo4j-cypher-compiler-2.0), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Matching (neo4j-graph-matching), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - JMX support (neo4j-jmx), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher (neo4j-cypher), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Algorithms (neo4j-graph-algo), version: 2.0.1; revision: 2.0.1:master:878/8bb63c9c059d8a491b7909e08da86a820c28d3a5
+2014-06-23 02:50:57.361+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.1
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore v0.A.1
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.1
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.1
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.1
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore v0.A.1
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.1
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.1
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.1
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.1
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2014-06-23 02:50:57.365+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore: used=1 high=0
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=0 high=-1
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=0 high=-1
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=0 high=-1
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore: used=0 high=-1
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=0 high=-1
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=0 high=-1
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2014-06-23 02:50:57.366+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2014-06-23 02:50:57.367+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2014-06-23 02:50:57.367+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 199999995904 / 29619363840 / 14
+Storage files: (filename : modification date - size)
+2014-06-23 02:50:57.367+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2014-06-22T22:50:57-0400 - 11.00 B
+2014-06-23 02:50:57.367+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2014-06-23 02:50:57.367+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2014-06-22T22:50:57-0400 - 40.00 B
+2014-06-23 02:50:57.367+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2014-06-22T22:50:57-0400 - 16.00 B
+2014-06-23 02:50:57.368+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2014-06-22T22:50:57-0400 - 4.00 B
+2014-06-23 02:50:57.368+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2014-06-22T22:50:57-0400 - 60.00 B
+2014-06-23 02:50:57.368+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.368+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2014-06-22T22:50:57-0400 - 44.27 kB
+2014-06-23 02:50:57.368+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2014-06-22T22:50:57-0400 - 63.00 B
+2014-06-23 02:50:57.368+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.368+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.369+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.369+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names: 2014-06-22T22:50:57-0400 - 38.00 B
+2014-06-23 02:50:57.369+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.369+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.369+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.369+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels: 2014-06-22T22:50:57-0400 - 68.00 B
+2014-06-23 02:50:57.369+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.370+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.370+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2014-06-22T22:50:57-0400 - 128.00 B
+2014-06-23 02:50:57.370+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.370+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.370+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.370+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.370+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2014-06-22T22:50:57-0400 - 38.00 B
+2014-06-23 02:50:57.370+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2014-06-22T22:50:57-0400 - 128.00 B
+2014-06-23 02:50:57.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2014-06-22T22:50:57-0400 - 38.00 B
+2014-06-23 02:50:57.371+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.372+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db: 2014-06-22T22:50:57-0400 - 64.00 B
+2014-06-23 02:50:57.372+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db.id: 2014-06-22T22:50:57-0400 - 9.00 B
+2014-06-23 02:50:57.372+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2014-06-22T22:50:57-0400 - 16.00 B
+2014-06-23 02:50:57.372+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2014-06-22T22:50:57-0400 - 4.00 B
+2014-06-23 02:50:57.372+0000 INFO  [o.n.k.i.DiagnosticsManager]:   schema:
+2014-06-23 02:50:57.372+0000 INFO  [o.n.k.i.DiagnosticsManager]:     label:
+2014-06-23 02:50:57.372+0000 INFO  [o.n.k.i.DiagnosticsManager]:       lucene:
+2014-06-23 02:50:57.372+0000 INFO  [o.n.k.i.DiagnosticsManager]:         write.lock: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.372+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.372+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.373+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.373+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2014-06-22T22:50:56-0400 - 0.00 B
+2014-06-23 02:50:57.373+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2014-06-22T22:50:57-0400 - 0.00 B
+2014-06-23 02:50:57.373+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2014-06-23 02:50:57.394+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor started. 
+2014-06-23 02:50:57.394+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
+2014-06-23 02:50:57.395+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED START ---
+2014-06-23 02:50:58.762+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator START ---
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: Server configuration:
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.database.location = data/graph.db
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.port = 7474
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.enabled = true
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.port = 7473
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.cert.location = conf/ssl/snakeoil.cert
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.key.location = conf/ssl/snakeoil.key
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webserver.https.keystore.location = data/keystore
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.rrdb.location = data/rrd
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.db.tuning.properties = conf/neo4j.properties
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.manage.console_engines = shell
+2014-06-23 02:50:58.767+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.http.log.enabled = false
+2014-06-23 02:50:58.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.http.log.config = conf/neo4j-http-logging.xml
+2014-06-23 02:50:58.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.management.uri = /db/manage/
+2014-06-23 02:50:58.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.webadmin.data.uri = /db/data/
+2014-06-23 02:50:58.768+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator END ---
+2014-06-23 02:50:58.772+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted discovery module (org.neo4j.server.rest.discovery) at: /
+2014-06-23 02:50:58.781+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted REST API at: /db/data/
+2014-06-23 02:50:58.784+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted management API at: /db/manage/
+2014-06-23 02:50:58.785+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted webadmin at: /webadmin
+2014-06-23 02:50:58.785+0000 INFO  [o.n.k.i.DiagnosticsManager]: Mounted Neo4j Browser at: /browser
+2014-06-23 02:51:00.034+0000 INFO  [o.n.k.i.DiagnosticsManager]: Server started on: http://localhost:7474/
+2014-06-23 02:51:00.034+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED END ---
+2014-06-23 03:17:20.292+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 573ms [total block time: 0.573s]
+2014-06-23 06:17:48.068+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 10798776ms [total block time: 10799.349s]
+2014-06-23 11:58:49.537+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 20430679ms [total block time: 31230.027s]
+2014-06-23 12:05:00.050+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 29128ms [total block time: 31259.156s]
+2014-06-23 12:05:11.047+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1401ms [total block time: 31260.557s]
+2014-06-23 13:08:05.041+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3097781ms [total block time: 34358.336s]
+2014-06-23 13:19:27.043+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 469190ms [total block time: 34827.527s]
+2014-06-23 14:00:17.115+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 579ms [total block time: 34828.11s]
+2014-06-23 14:36:00.066+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 2113780ms [total block time: 36941.887s]
+2014-06-23 16:46:32.192+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 799ms [total block time: 36942.688s]
+2014-06-23 16:48:39.068+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 97774ms [total block time: 37040.46s]
+2014-06-23 17:22:05.031+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 980886ms [total block time: 38021.344s]
+2014-06-23 17:52:59.014+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1277163ms [total block time: 39298.508s]
+2014-06-23 17:58:08.280+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1976ms [total block time: 39300.484s]
+2014-06-23 18:45:29.573+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 264ms [total block time: 39300.746s]
+2014-06-23 18:49:35.037+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 216485ms [total block time: 39517.23s]
+2014-06-23 18:54:41.576+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 914ms [total block time: 39518.15s]
+2014-06-23 19:02:58.070+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 410307ms [total block time: 39928.457s]
+2014-06-23 19:05:52.587+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 122ms [total block time: 39928.574s]
+2014-06-23 19:08:05.668+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 663ms [total block time: 39929.24s]
+2014-06-23 20:04:35.282+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 545ms [total block time: 39929.785s]
+2014-06-23 20:06:34.019+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 89728ms [total block time: 40019.51s]
+2014-06-23 20:11:41.787+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 721ms [total block time: 40020.23s]
+2014-06-23 21:03:38.339+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 363ms [total block time: 40020.598s]
+2014-06-23 21:04:24.083+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 16682ms [total block time: 40037.28s]
+2014-06-23 21:04:32.704+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 362ms [total block time: 40037.64s]
+2014-06-23 22:17:24.072+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 4206463ms [total block time: 44244.105s]
+2014-06-23 22:44:57.022+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 271ms [total block time: 44244.375s]
+2014-06-23 23:16:10.093+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1357732ms [total block time: 45602.11s]
+2014-06-23 23:16:20.631+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 977ms [total block time: 45603.086s]
+2014-06-24 00:19:05.737+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 441ms [total block time: 45603.523s]
+2014-06-24 00:29:42.011+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 607292ms [total block time: 46210.816s]
+2014-06-24 00:29:52.275+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 682ms [total block time: 46211.5s]
+2014-06-24 00:49:04.016+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1085793ms [total block time: 47297.293s]
+2014-06-24 01:44:36.077+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3256764ms [total block time: 50554.055s]
+2014-06-24 04:41:38.393+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1756ms [total block time: 50555.812s]
+2014-06-24 07:42:08.098+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 10800518ms [total block time: 61356.33s]
+2014-06-24 12:03:53.521+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 15673417ms [total block time: 77029.74s]
+2014-06-24 13:10:56.048+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3870094ms [total block time: 80899.84s]
+2014-06-24 13:16:21.028+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 185027ms [total block time: 81084.87s]
+2014-06-24 13:21:29.727+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 2084ms [total block time: 81086.95s]
+2014-06-24 13:50:39.047+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1108682ms [total block time: 82195.63s]
+2014-06-24 14:01:37.071+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 29162ms [total block time: 82224.8s]
+2014-06-24 14:02:24.288+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 364ms [total block time: 82225.16s]
+2014-06-24 14:03:06.041+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 13153ms [total block time: 82238.31s]
+2014-06-24 14:03:08.133+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 584ms [total block time: 82238.9s]
+2014-06-24 14:06:50.004+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 148161ms [total block time: 82387.055s]
+2014-06-24 14:08:15.094+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 54834ms [total block time: 82441.89s]
+2014-06-24 14:08:17.004+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 399ms [total block time: 82442.29s]
+2014-06-24 14:12:44.011+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 237792ms [total block time: 82680.08s]
+2014-06-24 14:13:20.991+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1538ms [total block time: 82681.625s]
+2014-06-24 14:43:50.085+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 58379ms [total block time: 82740.0s]
+2014-06-24 14:48:57.956+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1115ms [total block time: 82741.11s]
+2014-06-24 15:01:24.075+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 424029ms [total block time: 83165.14s]
+2014-06-24 15:06:33.978+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 783ms [total block time: 83165.93s]
+2014-06-24 16:07:32.666+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 421ms [total block time: 83166.35s]
+2014-06-24 16:27:03.049+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1141190ms [total block time: 84307.54s]
+2014-06-24 16:27:11.611+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 595ms [total block time: 84308.13s]
+2014-06-24 16:42:52.022+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 249200ms [total block time: 84557.336s]
+2014-06-24 16:48:13.422+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1222ms [total block time: 84558.555s]
+2014-06-24 16:58:19.023+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 46597ms [total block time: 84605.15s]
+2014-06-24 17:48:24.979+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 285ms [total block time: 84605.44s]
+2014-06-24 18:01:57.018+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 783566ms [total block time: 85389.0s]
+2014-06-24 18:01:59.962+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1226ms [total block time: 85390.234s]
+2014-06-24 18:52:50.678+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 364ms [total block time: 85390.59s]
+2014-06-24 19:00:24.045+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 424394ms [total block time: 85814.984s]
+2014-06-24 19:05:54.297+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 559ms [total block time: 85815.55s]
+2014-06-24 19:27:26.674+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 146ms [total block time: 85815.695s]
+2014-06-24 19:42:31.040+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 781182ms [total block time: 86596.875s]
+2014-06-24 19:46:49.610+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 914ms [total block time: 86597.79s]
+2014-06-24 19:47:36.093+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 17268ms [total block time: 86615.055s]
+2014-06-24 19:47:45.209+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 753ms [total block time: 86615.805s]
+2014-06-24 20:23:12.757+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 237ms [total block time: 86616.05s]
+2014-06-24 20:55:00.065+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1878202ms [total block time: 88494.25s]
+2014-06-24 20:55:08.958+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 720ms [total block time: 88494.97s]
+2014-06-25 00:00:07.085+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 10799252ms [total block time: 99294.23s]
+2014-06-25 00:26:13.676+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1534959ms [total block time: 100829.18s]
+2014-06-25 00:58:40.314+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 914ms [total block time: 100830.09s]
+2014-06-25 01:32:00.030+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1970511ms [total block time: 102800.61s]
+2014-06-25 01:32:09.919+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 507ms [total block time: 102801.11s]
+2014-06-25 03:47:44.032+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 814ms [total block time: 102801.93s]
+2014-06-25 03:55:12.086+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 419573ms [total block time: 103221.49s]
+2014-06-25 04:17:41.010+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1273935ms [total block time: 104495.43s]
+2014-06-25 04:19:53.049+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 57444ms [total block time: 104552.88s]
+2014-06-25 04:20:41.573+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1279ms [total block time: 104554.16s]
+2014-06-25 05:20:38.100+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3568447ms [total block time: 108122.6s]
+2014-06-25 05:22:51.045+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 57689ms [total block time: 108180.29s]
+2014-06-25 05:23:38.354+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 399ms [total block time: 108180.69s]
+2014-06-25 06:23:36.025+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3569230ms [total block time: 111749.92s]
+2014-06-25 07:24:21.072+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3570293ms [total block time: 115320.22s]
+2014-06-25 08:25:06.057+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3569657ms [total block time: 118889.875s]
+2014-06-25 09:25:51.088+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3569470ms [total block time: 122459.34s]
+2014-06-25 09:25:53.882+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1182ms [total block time: 122460.52s]
+2014-06-25 10:26:38.060+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3570430ms [total block time: 126030.95s]
+2014-06-25 11:21:21.077+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3187236ms [total block time: 129218.195s]
+2014-06-25 11:25:15.041+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 58197ms [total block time: 129276.38s]
+2014-06-25 12:26:00.071+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3570228ms [total block time: 132846.61s]
+2014-06-25 12:26:48.367+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 669ms [total block time: 132847.28s]
+2014-06-25 12:29:02.048+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 105730ms [total block time: 132953.02s]
+2014-06-25 13:52:52.026+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 4999087ms [total block time: 137952.1s]
+2014-06-25 15:45:22.066+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 828ms [total block time: 137952.92s]
+2014-06-25 15:46:14.094+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 22926ms [total block time: 137975.86s]
+2014-06-25 16:18:17.012+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 902297ms [total block time: 138878.14s]
+2014-06-25 16:19:04.984+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 213ms [total block time: 138878.38s]
+2014-06-25 17:33:38.070+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 4443976ms [total block time: 143322.34s]
+2014-06-25 17:33:47.348+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1400ms [total block time: 143323.75s]
+2014-06-25 18:23:46.882+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 321ms [total block time: 143324.06s]
+2014-06-25 18:29:28.075+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 312136ms [total block time: 143636.19s]
+2014-06-25 18:29:37.441+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1039ms [total block time: 143637.23s]
+2014-06-25 19:17:28.056+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 2848115ms [total block time: 146485.34s]
+2014-06-25 19:17:36.456+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1018ms [total block time: 146486.38s]
+2014-06-25 19:35:42.064+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 828882ms [total block time: 147315.25s]
+2014-06-25 20:12:13.711+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 209ms [total block time: 147315.45s]
+2014-06-25 20:16:06.037+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 203321ms [total block time: 147518.78s]
+2014-06-25 20:16:14.982+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 871ms [total block time: 147519.64s]
+2014-06-25 20:26:22.078+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 275556ms [total block time: 147795.2s]
+2014-06-25 20:26:24.556+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 858ms [total block time: 147796.06s]
+2014-06-25 20:27:26.054+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 32589ms [total block time: 147828.66s]
+2014-06-25 20:27:28.045+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 341ms [total block time: 147828.98s]
+2014-06-25 21:19:10.022+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 2066551ms [total block time: 149895.55s]
+2014-06-25 21:23:21.669+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 482ms [total block time: 149896.03s]
+2014-06-25 22:49:50.024+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 5150579ms [total block time: 155046.61s]
+2014-06-25 22:54:59.977+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 609ms [total block time: 155047.22s]
+2014-06-26 01:05:12.015+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 235620ms [total block time: 155282.83s]
+2014-06-26 01:05:48.032+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 5194ms [total block time: 155288.03s]
+2014-06-26 04:02:19.084+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1629ms [total block time: 155289.66s]
+2014-06-26 07:02:48.074+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 10799910ms [total block time: 166089.56s]
+2014-06-26 11:11:24.773+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 14884488ms [total block time: 180974.06s]
+2014-06-26 12:13:33.424+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 403ms [total block time: 180974.47s]
+2014-06-26 12:32:15.078+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1092464ms [total block time: 182066.92s]
+2014-06-26 12:32:15.734+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 247ms [total block time: 182067.17s]
+2014-06-26 12:42:20.256+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 373ms [total block time: 182067.55s]
+2014-06-26 13:10:39.855+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1534826ms [total block time: 183602.38s]
+2014-06-26 13:20:45.305+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 900ms [total block time: 183603.27s]
+2014-06-26 13:28:30.043+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 296731ms [total block time: 183900.0s]
+2014-06-26 13:31:44.151+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 823ms [total block time: 183900.83s]
+2014-06-26 13:37:19.316+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 539ms [total block time: 183901.36s]
+2014-06-26 14:59:59.012+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3908641ms [total block time: 187810.0s]
+2014-06-26 15:02:48.135+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 596ms [total block time: 187810.61s]
+2014-06-26 15:15:04.066+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 689040ms [total block time: 188499.64s]
+2014-06-26 15:20:10.677+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 788ms [total block time: 188500.44s]
+2014-06-26 16:27:05.008+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3538080ms [total block time: 192038.52s]
+2014-06-26 16:27:05.748+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 640ms [total block time: 192039.16s]
+2014-06-26 16:30:18.146+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 205ms [total block time: 192039.36s]
+2014-06-26 16:33:28.034+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 160892ms [total block time: 192200.23s]
+2014-06-26 16:38:35.557+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 748ms [total block time: 192200.98s]
+2014-06-26 19:46:48.054+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 10799806ms [total block time: 203000.8s]
+2014-06-26 21:12:33.544+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 5113912ms [total block time: 208114.72s]
+2014-06-26 22:26:36.144+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 450ms [total block time: 208115.17s]
+2014-06-26 22:27:52.075+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 46863ms [total block time: 208162.03s]
+2014-06-26 22:41:30.010+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 787209ms [total block time: 208949.23s]
+2014-06-26 22:46:36.261+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 383ms [total block time: 208949.61s]
+2014-06-26 23:04:36.044+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 73601ms [total block time: 209023.22s]
+2014-06-26 23:04:37.924+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 269ms [total block time: 209023.48s]
+2014-06-27 01:11:00.055+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 6985900ms [total block time: 216009.39s]
+2014-06-27 01:20:59.876+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1072ms [total block time: 216010.47s]
+2014-06-27 02:34:29.059+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3569048ms [total block time: 219579.5s]
+2014-06-27 02:54:59.069+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1154314ms [total block time: 220733.83s]
+2014-06-27 03:58:06.086+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3569613ms [total block time: 224303.44s]
+2014-06-27 04:11:15.057+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 713654ms [total block time: 225017.1s]
+2014-06-27 05:12:00.076+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3569570ms [total block time: 228586.66s]
+2014-06-27 06:12:45.032+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3569623ms [total block time: 232156.28s]
+2014-06-27 07:13:30.060+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3569660ms [total block time: 235725.94s]
+2014-06-27 08:14:15.084+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3569843ms [total block time: 239295.78s]
+2014-06-27 08:15:02.507+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 455ms [total block time: 239296.23s]
+2014-06-27 09:15:00.004+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3568963ms [total block time: 242865.2s]
+2014-06-27 10:15:45.083+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3570036ms [total block time: 246435.23s]
+2014-06-27 11:16:30.045+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3569933ms [total block time: 250005.17s]
+2014-06-27 12:11:52.095+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3246237ms [total block time: 253251.4s]
+2014-06-27 12:11:54.007+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 286ms [total block time: 253251.7s]
+2014-06-27 12:42:44.069+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 303900ms [total block time: 253555.6s]
+2014-06-27 12:42:46.307+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 493ms [total block time: 253556.08s]
+2014-06-27 13:07:10.007+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1389809ms [total block time: 254945.89s]
+2014-06-27 13:31:21.078+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1375337ms [total block time: 256321.23s]
+2014-06-27 13:31:23.131+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 418ms [total block time: 256321.64s]
+2014-06-27 14:30:06.023+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 3493757ms [total block time: 259815.4s]
+2014-06-27 16:20:59.887+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 787ms [total block time: 259816.19s]
+2014-06-27 17:00:29.022+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 2339933ms [total block time: 262156.12s]
+2014-06-27 17:00:39.050+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1111ms [total block time: 262157.22s]
+2014-06-27 17:11:44.033+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 597310ms [total block time: 262754.53s]
+2014-06-27 17:13:46.668+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 297ms [total block time: 262754.84s]
+2014-06-27 17:23:09.049+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 533484ms [total block time: 263288.34s]
+2014-06-27 17:23:17.961+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 767ms [total block time: 263289.1s]
+2014-06-27 17:39:45.004+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 955607ms [total block time: 264244.72s]
+2014-06-27 17:40:33.332+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 1360ms [total block time: 264246.06s]
+2014-06-27 18:07:00.018+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 448510ms [total block time: 264694.56s]
+2014-06-27 18:10:54.082+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for an additional 203278ms [total block time: 264897.84s]
+2014-06-27 18:12:53.726+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2014-06-27 18:12:53.731+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now unavailable
+2014-06-27 18:12:53.786+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor stopped. 
+2014-06-27 18:12:53.854+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log data/graph.db/index/lucene.log
+2014-06-27 18:12:53.863+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2014-06-27 18:12:53.911+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log data/graph.db/nioneo_logical.log
+2014-06-27 18:12:53.913+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-06-27 18:12:53.914+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-06-27 18:12:53.919+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db.names hit=0 miss=154 switches=0 ooe=0
+2014-06-27 18:12:53.920+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.labeltokenstore.db hit=0 miss=154 switches=0 ooe=0
+2014-06-27 18:12:53.921+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.strings hit=15 miss=0 switches=0 ooe=0
+2014-06-27 18:12:53.922+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.index.keys hit=0 miss=5 switches=0 ooe=0
+2014-06-27 18:12:53.923+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.index hit=0 miss=5 switches=0 ooe=0
+2014-06-27 18:12:53.924+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-06-27 18:12:53.925+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.propertystore.db hit=64938 miss=0 switches=0 ooe=0
+2014-06-27 18:12:53.940+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2014-06-27 18:12:53.940+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.nodestore.db.labels hit=0 miss=71 switches=0 ooe=0
+2014-06-27 18:12:53.941+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.nodestore.db hit=46372 miss=0 switches=0 ooe=0
+2014-06-27 18:12:53.942+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2014-06-27 18:12:53.943+0000 INFO  [o.n.k.i.n.s.StoreFactory]: /Users/SpecialK/portfolio/civis_bus_ridership/cta_ridership/neo4j/data/graph.db/neostore hit=0 miss=23362 switches=0 ooe=0
+2014-06-27 18:12:53.944+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2014-06-27 18:12:53.944+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2014-06-27 18:12:53.944+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
